@@ -6,7 +6,7 @@ const gif = document.querySelector(".gif");
 // Change text and gif when the Yes button is clicked
 yesBtn.addEventListener("click", () => {
     question.innerHTML = "Happy Valentine's Day, Adii";
-    gif.src = "https://github.com/Vsuase/Val/blob/main/Vid-ezgif.com-video-to-gif-converter.gif"; 
+    gif.src = "https://github.com/Vsuase/Val/blob/main/Vid-ezgif.com-video-to-gif-converter.gif?raw=true"; 
 
     // Hide the No button
     noBtn.style.display = "none";
